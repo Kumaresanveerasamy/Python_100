@@ -2,7 +2,7 @@ import requests
 import os
 from twilio.rest import Client
 
-api_key = "9017150741f39ed36595980c988aac1f"
+api_key = "xxxxxxxxxxxxxxxxxx"
 parameters = {
     "lat": 13.170984,
     "lon": 80.199112,
@@ -21,8 +21,8 @@ for info in hourly_data:
     weather_id = weather_data[0]["id"]
     if weather_id > 700:
         
-        account_sid = "AC2587ddfd0e51a154e8112e12faf2485a"
-        auth_token = "188a073234a206baa1645ec9c4dafa03"
+        account_sid = "Axxxxxxxxxxxxxxxx"
+        auth_token = "XXXXXXXXXXXXXXX"
         client = Client(account_sid, auth_token)
 
         message = client.messages.create(
