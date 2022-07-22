@@ -2,8 +2,8 @@ from bs4 import BeautifulSoup
 import smtplib
 import requests
 
-email = "d2dpuzzles@gmail.com"
-password = "Kishorekums007@"
+email = "xxxxx@gmail.com"
+password = "xxxxxxxx"
 
 URL = "https://www.amazon.in/Logitech-Multi-Device-Bluetooth-Keyboard-Black/dp/B00MUTWLW4/ref=sr_1_5?keywords=keyboard+for+ipad+air+4&qid=1638032643&s=computers&sr=1-5"
 header = {
@@ -23,5 +23,5 @@ if formatted_price <= 1800:
     with smtplib.SMTP("smtp.gmail.com") as connection:
         connection.starttls()
         connection.login(user=email, password=password)
-        connection.sendmail(from_addr=email, to_addrs="kishorekumaran007@gmail.com",
+        connection.sendmail(from_addr=email, to_addrs="xxxxxx@gmail.com",
                             msg=f"Subject : Price Alert .\n\nThe price of {product_name} is now Rs. {formatted_price}.. Order Now")
