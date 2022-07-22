@@ -28,7 +28,7 @@ login_fb_window = driver.window_handles[1]
 driver.switch_to.window(login_fb_window)
 
 sleep(3)
-driver.find_element(By.ID,"email").send_keys("kishorekumar007@hotmail.com")
-driver.find_element(By.ID,"pass").send_keys("32017648")
+driver.find_element(By.ID,"email").send_keys("xxxxxxxxxx@hotmail.com")
+driver.find_element(By.ID,"pass").send_keys("xxxxxx")
 driver.find_element(By.XPATH,'/html/body/div/div[2]/div[1]/form/div/div[3]/label[2]/input').click()
 driver.find_element(By.XPATH,'/html/body/div[1]/div/div/div/div/div/div/div[1]/div[3]/div[2]/div[1]/div/div/div/div[1]/div/span/span').click()
