@@ -1,8 +1,8 @@
 import requests
 from datetime import date
 
-APP_ID = "fca011b9"
-APP_KEY = "7baedc91e368ff56772d93f89129dc91"
+APP_ID = "xxxxxxx"
+APP_KEY = "yyyyyyyyyy"
 
 headers = {
     "x-app-id": APP_ID,
