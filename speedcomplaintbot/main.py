@@ -5,8 +5,8 @@ from time import sleep
 from twilio.rest import Client
 import os
 
-account_sid = "AC2587ddfd0e51a154e8112e12faf2485a"
-auth_token = "188a073234a206baa1645ec9c4dafa03"
+account_sid = "xxxxxxxx"
+auth_token = "yyyyyyyyy"
 client = Client(account_sid, auth_token)
 
 
