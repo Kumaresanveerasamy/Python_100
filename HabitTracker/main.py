@@ -3,8 +3,8 @@ from datetime import date
 
 today = date.today().strftime("%Y%m%d")
 
-TOKEN = "asdjadjdsohojiks"
-USER_NAME = "kishore"
+TOKEN = "xxxxxx"
+USER_NAME = "xxxxxxx"
 pixela_endpoint = "https://pixe.la/v1/users"
 user_parmeters = {
     "token": TOKEN,
