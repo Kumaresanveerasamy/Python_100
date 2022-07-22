@@ -5,8 +5,8 @@ import smtplib
 
 MY_LAT = 13.204184
 MY_LONG = 80.175126
-email = "d2dpuzzles@gmail.com"
-password = "Kishorekums007@"
+email = "yyyyyy@gmail.com"
+password = "xxxxxxxx"
 
 response = requests.get(url="http://api.open-notify.org/iss-now.json")
 response.raise_for_status()
@@ -40,7 +40,7 @@ while True:
             with smtplib.SMTP("smtp.gmail.com") as connection:
                 connection.starttls()
                 connection.login(user=email,password=password)
-                connection.sendmail(to_addrs="kishorekumar007@hotmail.com",from_addr=email,
+                connection.sendmail(to_addrs="xxxxxx@hotmail.com",from_addr=email,
                                     msg = f"Subject: ISS Overwatch \n\n"
                                           f"ISS is currently above you")
 
